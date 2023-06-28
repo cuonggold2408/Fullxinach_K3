@@ -1,0 +1,51 @@
+main {
+  background: rgb(80, 99, 123);
+  width: 800px;
+  border-radius: 10px;
+}
+
+span {
+  color: orange;
+}
+
+h1 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+p {
+  margin-top: -12px;
+  padding-left: 30px;
+  line-height: 20px;
+  color: white;
+}
+
+input {
+  border-radius: 5px;
+  margin-left: 30px;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 16px;
+}
+
+.box:hover input {
+  background-color: #ddd;
+}
+
+.box:hover input::placeholder {
+  color: orange;
+}
+
+button {
+  border-radius: 5px;
+  width: 180px;
+  height: 35px;
+  margin-bottom: 16px;
+  background-color: rgb(245, 245, 26);
+}
+
+.box:hover button {
+  background-color: orange;
+  color: #fff;
+}
