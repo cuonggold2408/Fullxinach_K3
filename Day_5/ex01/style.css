@@ -1,0 +1,120 @@
+h1 {
+  font-family: "Lobster", cursive;
+  margin-left: 35px;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  margin-left: 35px;
+}
+
+section {
+  font-family: "Lato", sans-serif;
+}
+
+.change-color {
+  color: red;
+}
+
+.const-color {
+  opacity: 0.5;
+}
+
+.write-text {
+  display: block;
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 550px;
+  height: 40px;
+}
+
+.icon-star {
+  position: absolute;
+  margin-left: 605px;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+
+.icon-name {
+  position: absolute;
+  padding-top: 15px;
+  margin-left: 36px;
+  opacity: 0.5;
+}
+
+.select-subject {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 11px;
+  opacity: 0.8;
+}
+
+.text-message {
+  display: inline;
+  margin-top: 30px;
+}
+
+.icon-message {
+  display: inline-block;
+  display: inline-block;
+  margin-left: 35px;
+  margin-top: 300px;
+  /* padding-top: 200px; */
+}
+
+textarea {
+  display: block;
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 550px;
+  height: 200px;
+}
+
+.check-box {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 16px;
+}
+
+.text-box {
+  display: inline;
+  margin-top: 30px;
+}
+
+.btn {
+  margin-left: 225px;
+  color: white;
+  background-color: red;
+  border: none;
+  height: 40px;
+  width: 120px;
+}
+
+.popup {
+  display: none;
+  top: 90px;
+  left: 86px;
+  width: 160px;
+  height: 50px;
+  color: white;
+  background-color: #333333;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+}
+.popup::after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  right: 80px;
+  display: block;
+  border: 17px solid #999;
+  border-color: #333333 transparent transparent transparent;
+}
+
+input:focus + span {
+  display: block;
+}
+select:focus + span {
+  display: block;
+}

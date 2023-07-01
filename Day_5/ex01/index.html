@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Hey there</title>
+  </head>
+  <body>
+    <!-- thẻ header -->
+    <header><h1>Hey there</h1></header>
+
+    <!-- thẻ nav -->
+    <nav>
+      <p>
+        <span class="change-color">We'd like to hear from you</span>.
+        <span class="const-color"
+          >Send us your message or just say hy with our <br />
+          contact form or directly via phone, we love to chat.</span
+        >
+      </p>
+    </nav>
+
+    <!-- thẻ section -->
+    <section>
+      <form action="">
+        <!-- user name -->
+        <div>
+          <span class="icon-name">
+            <i class="fa-solid fa-user fa-2xl"></i>
+          </span>
+          <span class="icon-star">
+            <i class="fa-solid fa-star fa-2xs"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Your name"
+            class="write-text"
+            required
+          />
+          <span class="popup">Enter Your name</span>
+        </div>
+
+        <!-- email -->
+        <div>
+          <span class="icon-name">
+            <i class="fa-solid fa-envelope fa-2xl"></i>
+          </span>
+          <span class="icon-star">
+            <i class="fa-solid fa-star fa-2xs"></i>
+          </span>
+          <input
+            type="email"
+            placeholder="your@domain.com"
+            class="write-text"
+            required
+          />
+        </div>
+
+        <!-- tel -->
+        <div>
+          <span class="icon-name">
+            <i class="fa-solid fa-mobile fa-2xl"></i>
+          </span>
+          <span class="icon-star">
+            <i class="fa-solid fa-star fa-2xs"></i>
+          </span>
+          <input
+            type="number"
+            placeholder="+44 00 123"
+            class="write-text"
+            required
+          />
+        </div>
+
+        <!-- Subject -->
+        <div>
+          <span class="icon-name">
+            <i class="fa-solid fa-book fa-2xl"></i>
+          </span>
+          <span class="select-subject">
+            <select>
+              <option hidden>Select</option>
+              <option>Toán</option>
+              <option>Lý</option>
+              <option>Hóa</option>
+            </select>
+          </span>
+          <input
+            type="text"
+            placeholder="Subject"
+            class="write-text"
+            required
+          />
+        </div>
+
+        <!-- Message -->
+        <div>
+          <span class="icon-name">
+            <i class="fa-solid fa-message fa-2xl"></i>
+          </span>
+          <span class="icon-star">
+            <i class="fa-solid fa-star fa-2xs"></i>
+          </span>
+          <textarea
+            cols="30"
+            rows="50"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+
+        <!-- check box -->
+        <div class="check-box">
+          <input type="checkbox" class="box" />
+          <p class="text-box">Send me a copy of this message</p>
+          <button class="btn">SEND</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
