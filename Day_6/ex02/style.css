@@ -1,0 +1,128 @@
+body {
+  background-color: #ebf5fe;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 50px;
+  /* background: #ebf5fe; */
+  /* height: 100vh;  */
+}
+.list-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.items,
+.items-bottom {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 16px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 18px 25px 22px 18px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  transition: all 0.3s linear 0s;
+}
+
+.items-bottom {
+  margin-top: 30px;
+}
+
+.items:hover {
+  border-color: red;
+}
+
+.items-bottom:hover {
+  border-color: red;
+}
+
+.info-title {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.icon-brush {
+  background-image: linear-gradient(
+    200deg,
+    rgb(250, 158, 72) 0%,
+    rgb(249, 62, 62) 74%
+  );
+}
+
+.icon-rocket {
+  background-color: rgb(183, 188, 255);
+  background-image: linear-gradient(
+    295deg,
+    rgb(183, 188, 255) 0%,
+    rgb(55, 43, 255) 100%
+  );
+}
+
+.icon-book {
+  background-color: rgb(32, 168, 36);
+  background-image: linear-gradient(
+    90deg,
+    rgb(43, 195, 48) 0%,
+    rgb(135, 189, 211) 100%
+  );
+}
+
+.icon-layer {
+  background-color: rgb(164, 32, 255);
+  background-image: linear-gradient(
+    43deg,
+    rgb(149, 21, 234) 0%,
+    rgb(151, 123, 255) 100%
+  );
+}
+
+.icon-bolt {
+  background-color: rgb(232, 156, 109);
+  background-image: linear-gradient(
+    62deg,
+    rgb(249, 119, 38) 0%,
+    rgb(247, 224, 104) 100%
+  );
+}
+
+.icon-letter {
+  background-color: rgb(32, 168, 36);
+  background-image: linear-gradient(
+    90deg,
+    rgb(17, 136, 21) 0%,
+    rgb(105, 255, 131) 100%
+  );
+}
+
+.title {
+  display: flex;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+p {
+  margin-top: 0;
+  line-height: 25px;
+  color: #666666;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
