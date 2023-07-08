@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SFU";
+  src: url(../assets/font/SFUTradeGothic-BoldCondensedTwenty.woff2);
+}
+
+body {
+  font-family: "Asap", sans-serif;
+  color: #3f3424;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.banner {
+  position: absolute;
+  top: 30%;
+  left: 200px;
+  background-color: #f9f9f9cc;
+  padding: 10px 10px 60px 20px;
+  width: 620px;
+  border-radius: 3px;
+}
+
+.banner-info {
+  margin: 0;
+}
+
+.title {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #bf4240;
+}
+
+p {
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+.address {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.price {
+  font-family: "SFU";
+  position: absolute;
+  border: 1px solid;
+  border-style: none;
+  padding: 10px 30px;
+  top: 88%;
+  right: 30px;
+  color: white;
+  background-color: #bf4240;
+  border-radius: 4px;
+  font-size: 25px;
+}
