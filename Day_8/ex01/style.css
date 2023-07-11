@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  width: 1400px;
+  height: 555px;
+}
+
+.title h3 {
+  position: absolute;
+  left: 5%;
+  top: 2.5%;
+  /* padding: 40px 60px; */
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.info {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 1.5%;
+  gap: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.info-item {
+  cursor: pointer;
+}
+.info-item-checked {
+  cursor: pointer;
+}
+
+.info-item span {
+  font-size: 17px;
+}
+
+.content {
+  display: none;
+  /* visibility: hidden; */
+  position: absolute;
+  width: 1306px;
+  height: 392px;
+  max-height: 392px;
+  right: 0;
+  top: 200%;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left-content {
+  position: relative;
+  width: 35%;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-content::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 100%;
+  width: 1px;
+  height: 90%;
+  background-color: #d7d7d7;
+  margin-top: 20px;
+}
+
+.usage {
+  position: absolute;
+  padding: 30px 30px;
+}
+
+.styleguide {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 0 30px;
+}
+
+h4 {
+  padding-bottom: 15px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  font-weight: bold;
+}
+
+.right-content {
+  position: absolute;
+  width: 65%;
+  left: 38%;
+  top: 7.6%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  list-style: none;
+}
+
+a:hover {
+  color: #939191;
+}
+
+.info-item:hover {
+  color: #939191;
+}
+
+.info-item-checked:hover {
+  color: #939191;
+}
+
+.info-item-checked:hover .content {
+  display: block;
+}
+
+.info-item-checked span {
+  padding-bottom: 30px;
+}
