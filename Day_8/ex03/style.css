@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 850px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-down {
+  display: flex;
+  flex-direction: row;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav p {
+  font-size: 11px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.info-item img {
+  width: 100px;
+  height: 80px;
+}
+
+.item {
+  text-align: center;
+  width: 273px;
+}
+
+.info-item p {
+  font-size: 12px;
+  text-indent: -15px;
+  padding: 12px 0;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 120px;
+  height: 35px;
+  border: 1px none;
+  background-color: rgb(9, 9, 193);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn:hover {
+  color: red;
+}
+
+.btn-fixed {
+  width: 120px;
+  height: 35px;
+  border: 1px none;
+  background-color: rgb(9, 9, 193);
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.btn-fixed:hover {
+  color: red;
+}
+
+.item + .item {
+  margin-left: 15px;
+}
+
+.item-down .item .info-item p {
+  margin-left: 4px;
+}
